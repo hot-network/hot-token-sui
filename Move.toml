@@ -1,0 +1,13 @@
+[package]
+name = "hot_token"
+version = "1.0.0"
+authors = ["HOT Network"]
+edition = "2024"
+
+[addresses]
+# Deploy addresses for Devnet/Mainnet
+devnet = "<DEVNET_ADDRESS>"
+mainnet = "<MAINNET_ADDRESS>"
+
+[dependencies]
+# Add dependencies if you use external Move packages

@@ -1,0 +1,17 @@
+{
+  "name": "hot-token-sui",
+  "version": "1.0.0",
+  "description": "HOT Token: Deflationary, Staking, Governance token on Sui blockchain",
+  "main": "hot_master.js",
+  "scripts": {
+    "build": "sui move build",
+    "test": "sui move test",
+    "publish:devnet": "sui client publish --gas-budget 1000000 --network devnet",
+    "publish:mainnet": "sui client publish --gas-budget 1000000 --network mainnet"
+  },
+  "author": "HOT Network",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1"
+  }
+}
